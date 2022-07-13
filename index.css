@@ -83,6 +83,7 @@ header p {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  color: black;
 }
 #func {
   background-color: #f5f4d6;
@@ -92,9 +93,11 @@ header p {
   transition-duration: 0.2s;
   transform: scale(1.1);
   cursor: pointer;
+  -webkit-transform:scale(1.1)
 }
 .btn:active {
   transform: scale(0.9);
+  -webkit-transform:scale(0.9)
 }
 @media (max-width: 707px) {
   header p {
