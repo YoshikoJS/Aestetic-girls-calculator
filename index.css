@@ -5,6 +5,9 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   -webkit-overflow-scrolling: touch;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 body {
   background-color: #f5f4d6;
@@ -49,6 +52,9 @@ header p {
   border: 1px solid black;
   font-size: 26px;
   font-family: "Margarine", cursive;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .btn-container {
   display: flex;
@@ -74,6 +80,9 @@ header p {
   font-family: "Margarine", cursive;
   font-size: 64px;
   transition-duration: 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 #func {
   background-color: #f5f4d6;
