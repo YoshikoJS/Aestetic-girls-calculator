@@ -11,7 +11,10 @@ for (let btn of btns) {
     } else if (btn.innerHTML == "=") {
       input.value = eval(input.value);
     } else {
-      numbers[Number(btn.innerHTML)].play();
+      try {
+        numbers[Number(btn.innerHTML)].play();
+      } catch (error) {}
+
       input.value += btn.innerHTML;
     }
   };
